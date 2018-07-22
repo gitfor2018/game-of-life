@@ -3,19 +3,20 @@ node {
     stage('git') {
     // some block
      https://github.com/gitfor2018/game-of-life.git
-}
+     }
 
     stage('eco') {
     // some block
      echo 'hello world'
-}
+     }
 
 stage('package') {
     // some block
        sh 'mvn package'
-}
+    }
 stage('archive') {
     // some block
 archive 'gameoflife-web\\target\\gameoflife.war'
-}
+   }
+   
 }   
