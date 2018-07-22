@@ -2,7 +2,7 @@ node {
     
     stage('git') {
     // some block
-     https://github.com/gitfor2018/game-of-life.git
+     git 'https://github.com/gitfor2018/game-of-life.git'
      }
 
     stage('eco') {
@@ -18,5 +18,5 @@ stage('archive') {
     // some block
 archive 'gameoflife-web\\target\\gameoflife.war'
    }
-   
+
 }   
